@@ -27,25 +27,54 @@
     padding: 5px 15px;
 
 }
-.serch{
-    border-radius: 30px;
-    border: solid 0.1px rgb(231, 231, 231);
-    padding: 12px 130px;
-
+#searching {
+    border-radius: 100px;
+    border: 1px solid rgb(231, 231, 231);
+    width: 550px;
+    display: flex;
+    margin-bottom: 30px;
 }
-.but {
+.searchtext {
+    border: none;
+    width: 300px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 9px;
+    outline: none;
+    margin-right: 110px;
+}
+.searchimg {
+    width: 43px;
+    height: 43px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.keyboard {
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+    margin-right :20px;
+}
+.mic {
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+}
+.button1 {
     border-radius: 5px;
     background-color: rgb(231, 231, 231);
     color: gray;
     padding: 10px 20px;
     border: rgb(231, 231, 231);
+    cursor: pointer;
 }
-.ton {
+.button2 {
     border-radius: 5px;
     background-color: rgb(231, 231, 231);
     color: gray;
     padding: 11.8px 20px;
     border: rgb(231, 231, 231);
+    cursor: pointer;
 }
 a {
     text-decoration: none;
@@ -59,6 +88,7 @@ footerone {
     background-color: rgb(240, 240, 240);
     color: rgb(100, 100, 100);
     font-size: 15px;
+    border-bottom: 1px solid rgb(100, 100, 100);
 }
 footertwo {
     position: absolute;
