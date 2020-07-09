@@ -224,7 +224,7 @@ footer {
 }
 .firstaccount:hover {
     box-shadow: 2px 2px 5px 2px rgb(224, 224, 224),
-    2px 2px 5px 2px rgb(224, 224, 224);
+    -2px -2px 5px 2px rgb(224, 224, 224);
 }
 .newaccount:hover{
     box-shadow: 2px 2px 5px 2px rgb(224, 224, 224),
@@ -233,6 +233,7 @@ footer {
 .firstaccount {
     margin-top: 20px;
     cursor: pointer;
+    position: relative;
 }
 .img {
     height: 160px;
@@ -304,8 +305,8 @@ footer {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 197px;
-    left: 85px;
+    top: 5px;
+    left: 5px;
     font-family: sans-serif;
     font-size: 9px;
     font-weight: bold;
@@ -318,7 +319,7 @@ footer {
     color: rgb(104, 104, 104);
     font-size: 15px;
     position: absolute;
-    top: 187px;
-    left: 78px;
+    top: -3px;
+    left: -3px;
     cursor: pointer;
 }
