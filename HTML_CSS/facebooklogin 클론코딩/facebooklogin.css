@@ -1,0 +1,324 @@
+header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background: -webkit-linear-gradient(to top, rgb(59, 89, 152), rgb(76, 104, 161));
+    background: linear-gradient(to top, rgb(59, 89, 152), rgb(76, 104, 161));
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+body {
+    margin: 0;
+    width: 100%;
+    min-width: 1000px;
+}
+section {
+    background-color: rgb(233,235,238);
+    width: 100%;
+    height: 610px;
+}
+.left {
+    width: 500px;
+    box-sizing: border-box;
+    padding-left: 8px;
+}
+.right {
+    width: 500px;
+    box-sizing: border-box;
+    padding-left: 95px;
+ }
+.logo{
+    color: white;
+    font-size: 20px;
+    margin: 13px 410px 0 auto;
+    font-size: 44px;
+    font-weight: bolder;
+}
+.id {
+    float: right;
+    color: white;
+    margin: 10px 13px 0 0;
+    font-size: 13px;
+}
+.idtext {
+    float: right;
+    outline: none;
+    width: 140px;
+    height: 14px;
+    margin-top: 5px;
+}
+.password {
+    color: white;
+    float: right;
+    font-size: 13px;
+    margin: 10px 10px 0 0;
+}
+.passwordtext {
+    outline: none;
+    width: 130px;
+    height: 14px;
+    margin: 5px 0;
+}
+.forget {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.507);
+}
+.login {
+    background-color: rgb(78, 108, 172);
+    color: white;
+    border: 1px solid rgb(52, 79, 136);
+    width: 65px;
+    height: 23px;
+    font-size: 15px;
+    margin: 30px auto 0 3px;
+    cursor: pointer;
+    outline: none;
+}
+.new {
+    font-size: 35px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.newtext {
+    margin: 3px auto;
+    font-size: 20px;
+}
+.personalfirst {
+    display: flex;
+}
+.firstname {
+    font-size: 18px;
+    width: 195px;
+    height: 37px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    color: rgb(161,161,161);
+    margin: 19px 10px 5px 0;
+}
+.lastname {
+    font-size: 18px;
+    width: 195px;
+    height: 37px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    color: rgb(161, 161, 161);
+    margin: 19px auto 5px 0;
+}
+.email {
+    font-size: 18px;
+    width: 406px;
+    height: 37px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    color: rgb(161, 161, 161);
+    margin: 5px auto 10px 0;
+}
+.newpassword {
+    font-size: 18px;
+    width: 406px;
+    height: 37px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    color: rgb(161, 161, 161);
+    margin: 0 auto 15px 0;
+}
+.record {
+    font-size: 35px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.recordtext {
+    font-size: 19px;
+    margin: 3px auto;
+}
+.birthday {
+    font-size: 16px;
+    color: rgb(114, 114, 114);
+}
+.year {
+    width: 65px;
+    height: 30px;
+    border: 1px solid rgb(201, 201, 201);
+    margin: 5px 0 10px 0;
+}
+.month {
+    width: 65px;
+    height: 30px;
+    border: 1px solid rgb(201, 201, 201);
+}
+.date {
+    width: 65px;
+    height: 30px;
+    border: 1px solid rgb(201, 201, 201);
+}
+.gendertext {
+    font-size: 17px;
+    color: rgb(114, 114, 114);
+    margin-bottom: 5px;
+}
+.femaletext {
+    font-size: 19px;
+    margin-right: 15px;
+}
+.maletext {
+    font-size: 19px;
+    margin-right: 15px;
+}
+.othertext {
+    font-size: 19px;
+    margin-right: auto;
+}
+.explain {
+    font-size: 11px;
+    color: rgb(114, 114, 114);
+    margin: 15px 0 20px 0;
+}
+.join {
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    background: -webkit-linear-gradient(to top, rgb(88, 138, 68), rgb(112, 185, 92));
+    background: linear-gradient(to top, rgb(88, 138, 68), rgb(112, 185, 92));
+
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+}
+.plus {
+    width: 30px;
+    height: 20px;
+    font-size: 15px;
+    margin-top: 15px;
+    border: 1px solid rgb(201, 201, 201);
+}
+footer {
+    width: 980px;
+    height: 200px;
+    margin: 0 auto;
+    direction: ltr;
+}
+.page {
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 1px solid rgb(218, 218, 218);
+    padding-top: 15px;
+    color: rgb(104, 104, 104);
+}
+.account {
+    display: flex;
+}
+.firstaccount:hover {
+    box-shadow: 2px 2px 5px 2px rgb(224, 224, 224),
+    2px 2px 5px 2px rgb(224, 224, 224);
+}
+.newaccount:hover{
+    box-shadow: 2px 2px 5px 2px rgb(224, 224, 224),
+    -2px -2px 5px 2px rgb(224, 224, 224);
+}
+.firstaccount {
+    margin-top: 20px;
+    cursor: pointer;
+}
+.img {
+    height: 160px;
+}
+.image {
+    width: 160px;
+    height: 160px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid rgb(218, 218, 218);
+    border-bottom: none;
+}
+.name {
+    background-color: white;
+    font-size: 20px;
+    width: 160px;
+    height: 46px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgb(218, 218, 218);
+    border-top: none;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(94, 94, 94);
+}
+.newaccount {
+    margin: 20px 0 0 16px;
+    cursor: pointer;
+}
+.plusicon {
+    width: 160px;
+    height: 160px;
+    background-color: rgb(243, 243, 243);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid rgb(223, 221, 221);
+    border-bottom: none;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(59,89,152);
+}
+.newname {
+    background-color: white;
+    width: 160px;
+    height: 46px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgb(218, 218, 218);
+    border-top: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(59,89,152);
+    font-size: 18px;
+}
+.up {
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+.x {
+    width: 17px;
+    height: 17px;
+    background: rgba(114, 114, 114, 0.6);
+    color: white;
+    border: 1px solid rgba(114, 114, 114, 0.6);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 197px;
+    left: 85px;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+}
+.x:hover {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border: 1px solid white;
+    color: rgb(104, 104, 104);
+    font-size: 15px;
+    position: absolute;
+    top: 187px;
+    left: 78px;
+    cursor: pointer;
+}
