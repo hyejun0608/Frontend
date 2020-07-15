@@ -225,10 +225,12 @@ footer {
 .firstaccount:hover {
     box-shadow: 2px 2px 5px 2px rgb(224, 224, 224),
     -2px -2px 5px 2px rgb(224, 224, 224);
+    transition: all ease 0.2s 0s;
 }
 .newaccount:hover{
     box-shadow: 2px 2px 5px 2px rgb(224, 224, 224),
     -2px -2px 5px 2px rgb(224, 224, 224);
+    transition: all ease 0.2s 0s;
 }
 .firstaccount {
     margin-top: 20px;
@@ -311,7 +313,7 @@ footer {
     font-size: 9px;
     font-weight: bold;
 }
-.x:hover {
+.firstaccount:hover > .x{
     width: 25px;
     height: 25px;
     background: white;
@@ -322,4 +324,5 @@ footer {
     top: -3px;
     left: -3px;
     cursor: pointer;
+    transition: all ease 0.2s 0s;
 }
