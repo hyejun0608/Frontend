@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+}
+.img {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.scarfs {
+    font-size: 28px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 7.5%;
+    padding-top: 1.9vh;
+}
+.assignment {
+    font-size: 16px;
+    color: white;
+    margin: 0 10% 0 auto;
+    padding-top: 4.2vh;
+    font-weight: bold;
+}
+.QnA {
+    font-size: 16px;
+    color: white;
+    margin-right: 10%;
+    padding-top: 4.2vh;
+    font-weight: bold;
+}
+.noticeboard {
+    font-size: 16px;
+    color: white;
+    margin-right: 7.5%;
+    padding-top: 4.2vh;
+    font-weight: bold;
+}
+
+.eschool {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.escience {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+.kschool {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.kscience {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
