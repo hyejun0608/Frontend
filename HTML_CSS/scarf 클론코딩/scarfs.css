@@ -18,6 +18,7 @@ header {
     font-family: sans-serif;
     margin-left: 7.5%;
     padding-top: 1.9vh;
+    cursor: default;
 }
 .assignment {
     font-size: 16px;
@@ -25,6 +26,7 @@ header {
     margin: 0 10% 0 auto;
     padding-top: 4.2vh;
     font-weight: bold;
+    cursor: pointer;
 }
 .QnA {
     font-size: 16px;
@@ -32,6 +34,7 @@ header {
     margin-right: 10%;
     padding-top: 4.2vh;
     font-weight: bold;
+    cursor: pointer;
 }
 .noticeboard {
     font-size: 16px;
@@ -39,26 +42,61 @@ header {
     margin-right: 7.5%;
     padding-top: 4.2vh;
     font-weight: bold;
+    cursor: pointer;
 }
-
 .eschool {
     color: white;
     font-size: 20px;
     font-weight: bold;
+    height: 12px;
 }
 .escience {
     color: white;
     font-size: 60px;
     font-weight: bold;
-    border-bottom: 1px solid white;
+    height: 71px;
+}
+.line {
+    width: 400px;
+    height: 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.884);
 }
 .kschool {
     color: white;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
+    padding-top: 7px;
+    height: 16px;
 }
 .kscience {
     color: white;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: bold;
+}
+.center {
+    height: auto;
+    width: 640px;
+    margin: 29.5vh 0 0 8.6vw;
+    cursor: default;
+}
+.login {
+    width: 110px;
+    height: 110px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    font-weight: bold;
+}
+.signup {
+    width: 110px;
+    height: 110px;
+    color: black;
+    background-color: orangered;
+    border: none;
+    font-weight: bold;
+}
+.footer {
+    float: right;
+    margin-right: 5%;
+    display: flex;
 }
