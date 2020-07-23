@@ -76,27 +76,66 @@ header {
 .center {
     height: auto;
     width: 640px;
-    margin: 29.5vh 0 0 8.6vw;
+    margin: 33vh 0 0 8.6vw;
     cursor: default;
 }
 .login {
-    width: 110px;
-    height: 110px;
+    width: 105px;
+    height: 105px;
     color: white;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(27, 27, 27);
     border: none;
     font-weight: bold;
 }
 .signup {
-    width: 110px;
-    height: 110px;
+    width: 105px;
+    height: 105px;
     color: black;
-    background-color: orangered;
+    background-color: rgb(255, 87, 25);
     border: none;
     font-weight: bold;
 }
 .footer {
     float: right;
-    margin-right: 5%;
     display: flex;
+    position: absolute;
+    bottom: 5%;
+    right: 56px;
+}
+.scroll {
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    height: 50px;
+    width: 24px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-left: 14px;
+    margin-bottom: 6px;
+}
+.down {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 5px;
+    font-weight: bold;
+}
+.fline {
+    width: 24px;
+    height: 0;
+    border: 1.5px solid rgb(255, 87, 25, 0.8);
+}
+.sline {
+    margin-top: 10px;
+    width: 20px;
+    height: 0;
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    margin-left: 4px;
+}
+.lines {
+    padding-left: 15px;
+    padding-bottom: 11vh;
+}
+.aside {
+    position: absolute;
+    top: 42%;
+    right: 2.9%;
 }
