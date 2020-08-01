@@ -1,3 +1,8 @@
-body {
-    background-color: rgb(43, 255, 0);
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
 }
