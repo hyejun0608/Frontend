@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <title>To Do List</title>
         <link rel="stylesheet" href="todolist.css">
-        <script src="todolist.js"></script>
     </head>
     <body>
         <div class="main">
@@ -13,20 +12,15 @@
             </div>
             <div class="all">
                 <div class="makelist">
-                    <input type="text" class="write" value="" placeholder="할일을 적으세요!">
-                    <input type="button" class="enter" value="Enter">
+                    <input type="text" class="write" placeholder="할일을 적으세요!">
+                    <input type="button" class="enter" value="Enter" onclick="newElement()">
                 </div>
                 <div class="contents">
-                    <div>
-                        <input type="checkbox" class="breakfast" style="width: 15px; height: 15px;">
-                        <label for="breakfast">아침밥 먹기</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" class="play" style="width: 15px; height: 15px;">
-                        <label for="play">친구들이랑 놀기</label>
-                    </div>
+                    <ul class="list">
+                    </ul>
                 </div>
             </div>
         </div>
+        <script src="todolist.js"></script>
     </body>
 </html>
