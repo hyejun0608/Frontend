@@ -1,25 +1,12 @@
-.close {
-    border: none;
-    outline: none;
-    background-color: white;
-    font-size: 15px;
-    width: 30px;
-    height: 27px;
-    cursor: pointer;
-    float: right;
-    font-weight: bold;
-}
-.change {
+button {
     border: none;
     outline: none;
     width: 30px;
     height: 27px;
-    font-size: 23px;
+    font-size: 20px;
     cursor: pointer;
-    float: right;
     background-color: white;
-    position: absolute;
-    right: 25px;
+    float: right;
 }
 input:focus {
     outline: none;
@@ -72,12 +59,16 @@ input:focus {
     margin-top: 100px;
 }
 ul li {
+    list-style: none;
+}
+ul input {
     font-size: 20px;
     margin-bottom: 5px;
+    background-color: white;
+    border: none;
     cursor: pointer;
-    list-style: none;
-    position: relative;
+    width: 400px;
 }
-ul li.checked {
+ul input.checked {
     text-decoration: line-through;
 }
