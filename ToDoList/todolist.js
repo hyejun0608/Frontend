@@ -1,5 +1,12 @@
 const list = document.querySelector(".list");
 
+function enterkey() {
+    const ENTER_KEY_CODE = 13;
+    if (event.keyCode === ENTER_KEY_CODE) {
+        newElement();
+    }
+}
+
 function changelist(event) {
     const plusbtn = event.target;
     const changedlist = plusbtn.previousSibling.previousSibling;
