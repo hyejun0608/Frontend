@@ -1,4 +1,18 @@
 const list = document.querySelector(".list");
+const enter = document.querySelector(".enter")
+const TODOS_LS = "toDos";
+let toDos = [];
+
+function removed(event) {
+    const btn = event.target;
+    const removelist = btn.parentElement;
+    removelist.remove();
+    const clean = toDos.filter(toDo => {
+        return toDo.id !== parseInt(li.id);
+    });
+    toDos = clean;
+    saveToDo();
+}
 
 function enterkey() {
     const ENTER_KEY_CODE = 13;
@@ -18,14 +32,13 @@ function changelist(event) {
     }
 }
 
-function removed(event) {
-    const btn = event.target;
-    const removelist = btn.parentElement;
-    removelist.remove();
-}
 
 function checkedlist(event) {
     event.target.classList.toggle("checked");
+}
+
+function saveToDo() {
+    localStorage.setItem(TODOS_LS, JSON.stringify(toDos));
 }
 
 function newElement() {
@@ -53,4 +66,28 @@ function newElement() {
     changecontents.addEventListener("click", changelist);
     removebtn.addEventListener("click", removed);
     li.addEventListener("dblclick", checkedlist);
+    const newId = toDos.length + 1;
+    li.id = newId;
+    const toDoObj = {
+        text : inputValue,
+        id : newId
+    };
+    toDos.push(toDoObj);
+    saveToDo();
 }
+
+function loadToDo() {
+    const loadedToDos = localStorage.getItem(TODOS_LS);
+    if(loadedToDos !== "") {
+        const parseToDos = JSON.parse(loadedToDos);
+        parseToDos.forEach(function(toDo) {
+            newElement(toDo.inputValue);
+        });
+    }
+}
+
+function init() {
+    loadToDo();
+    enter.addEventListener("click", newElement);
+}
+init();
