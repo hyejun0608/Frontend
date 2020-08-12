@@ -1,0 +1,58 @@
+.all {
+    position: relative;
+    margin-top: 60px;
+}
+.toDoList {
+    font-size: 90px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    cursor: default;
+}
+li {
+    list-style: none;
+    border: 2px solid rgb(116, 116, 116);
+    height: 50px;
+    width: 1000px;
+    padding-top: 12px;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+li {
+    margin-left: 20px;
+    color: rgb(116, 116, 116);
+    font-size: 25px;
+}
+img {
+    width: 90px;
+    height: 90px;
+}
+.checkbtn {
+    border: 2px solid rgb(116, 116, 116);
+    border-radius: 15px;
+    width: 25px;
+    height: 25px;
+    color: rgb(116, 116, 116);
+    background-color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.checked {
+    text-decoration-line: line-through;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+.img > div {
+    margin: 100px 80px 50px 0;
+}
+.contents {
+    display: block;
+}
+ul {
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
