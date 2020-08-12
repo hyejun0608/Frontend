@@ -1,0 +1,89 @@
+.mypage {
+    display: flex;
+}
+img {
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+}
+.text {
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(116, 116, 116);
+}
+.content {
+    width: 1000px;
+    height: 600px;
+    border: 3px solid rgb(116, 116, 116);
+    margin-top: 25px;
+}
+.myplan {
+    font-size: 35px;
+    color: rgb(116, 116, 116);
+    font-weight: bold;
+    margin: 30px 0 0 30px;
+}
+.allcontent {
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 100px;
+}
+.checkebtn {
+    border: 2px solid rgb(116, 116, 116);
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    color: rgb(116, 116, 116);
+    background-color: white;
+}
+.checked {
+    text-decoration-line: line-through;
+}
+li {
+    list-style: none;
+    border-bottom: 2px solid rgb(116, 116, 116);
+    height: 40px;
+    width: 900px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+li > span {
+    margin-left: 20px;
+    color: rgb(116, 116, 116);
+    font-size: 25px;
+}
+.changebtn {
+    border: 2px solid rgb(116, 116, 116);
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    color: rgb(116, 116, 116);
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    float: right;
+}
+.deletebtn {
+    border: 2px solid rgb(116, 116, 116);
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    color: rgb(116, 116, 116);
+    font-size: 15px;
+    background-color: white;
+    text-align: center;
+    float: right;
+    margin-left: 10px;
+}
+.top {
+    position: relative;
+}
+.trashcan {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    cursor: pointer;
+}
