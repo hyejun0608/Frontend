@@ -1,0 +1,44 @@
+<!--page 4 js파일 따로 만들어 뒀으니 그곳에 만드세용-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Weekly Planner</title>
+        <link rel="stylesheet" href="weekly.css">
+    </head>
+    <body>
+        <div class="allcontents">
+            <div class="month">
+                <span>8</span>
+            </div>
+            <div>
+                <form>
+                    <input type="text" placeholder="일정을 적어보세요" class="make">
+                </form>
+            </div>
+            <div class="weeklyplaner">
+                <table class="weekly">
+                    <tr>
+                        <th class="sun">일</th>
+                        <th class="mon">월</th>
+                        <th class="tue">화</th>
+                        <th class="wed">수</th>
+                        <th class="thu">목</th>
+                        <th class="fri">금</th>
+                        <th class="sat">토</th>
+                    </tr>
+                    <tr>
+                        <td class="sunplan"></td>
+                        <td class="monplan"></td>
+                        <td class="tueplan"></td>
+                        <td class="wedplan"></td>
+                        <td class="thuplan"></td>
+                        <td class="friplan"></td>
+                        <td class="satplan"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="weekly.js"></script>
+    </body>
+</html>
