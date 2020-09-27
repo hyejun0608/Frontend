@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+
+.table {
+  background-color: #eeeeee;
+  //width: 450px;
+  height: 442px;
+  display: flex;
+  flex-direction: column;
+  &__list {
+    flex: 1;
+    display: flex;
+    border: 1px solid rgb(153, 153, 153);
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 0.5px solid rgb(153, 153, 153);
+      span {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Noto Sans KR', sans-serif;
+      }
+      span.school {
+        font-size: 12px;
+      }
+      &:last-child {
+        border-right: 0px;
+      }
+    }
+  };
+  &__flist {
+    flex: 1;
+    display: flex;
+    border: 1px solid rgb(153, 153, 153);
+    background-color: rgb(153, 153, 153);
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        color: #eeeeee;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Noto Sans KR', sans-serif;
+      }
+      &:last-child {
+        border-right: 0px;
+      }
+    }
+  };
+}
+.table__list {
+    & > div {
+      flex: 1;
+      &:nth-child(2) {
+        flex: 3;
+      }
+    }
+
+    &.new {
+      & .school {
+        animation: visiblity 1s;
+      }
+      & .grade {
+        animation: visiblity 3s;
+      }
+      & .class {
+        animation: visiblity 5s;
+      }
+      & .number {
+        animation: visiblity 7s;
+      }
+    }
+}
+.table__flist {
+    & > div {
+      flex: 1;
+      &:nth-child(2) {
+        flex: 3;
+      }
+    }
+}
+
+@keyframes visiblity {
+  0% { opacity: 0; }
+  99% { opacity: 0; }
+  100% { opacity: 1; }
+}
